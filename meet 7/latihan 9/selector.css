@@ -1,0 +1,27 @@
+body{
+    font-family: vardana;
+}
+
+h1,h3{
+    color: green;
+}
+
+ul li a {
+    color: orange;
+}
+
+ol li a{
+    color: hotpink;
+}
+
+#p1{
+    color: yellowgreen;
+}
+
+.p2{
+    color: seagreen;
+}
+
+.cetak-tebal{
+    font-weight: bold;
+}
