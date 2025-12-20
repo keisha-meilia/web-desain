@@ -1,0 +1,32 @@
+body{
+    font-family: arial;
+}
+
+h1, h2{
+    color: green;
+}
+
+h2{
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+ul li a{
+    color: blue;
+}
+
+ol li a{
+    color: orange;
+}
+
+#p1{
+    color: violet;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p.bold{
+    color: orange;
+}
