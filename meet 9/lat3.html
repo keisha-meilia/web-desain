@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keisha Meilia - 240102045 - Latihan 3</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Membuat Object
+        var Mobil = new Object();
+
+        // Properties
+        Mobil.nama = "Suzuki </br>";
+        Mobil.tipe = "JLX";
+        Mobil.berat = "100 kg";
+        Mobil.warna = "Hijau";
+        // Mendefinisikan Method (Fungsi)
+        Mobil.starter = function() {
+            return "Mobil " + this.nama + " dinyalakan! ";
+        };
+        Mobil.belok_kiri = function() {
+            return "Mobil belok ke kiri. </br>";
+        };
+        Mobil.belok_kanan = function() {
+            return "Mobil belok ke kanan.";
+        };
+
+        // Menjalankan dan menampilkan hasil ke console atau layar
+        document.write(Mobil.nama); // Output: Suzuki
+        document.write(Mobil.starter()); 
+        document.write(Mobil.belok_kiri()); 
+        document.write(Mobil.belok_kiri()); 
+    </script>
+</body>
+</html>
